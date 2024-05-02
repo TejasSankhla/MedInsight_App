@@ -47,10 +47,10 @@ export function Home() {
         <div className="relative mx-auto  max-w-4xl py-16">
           <div className="absolute inset-x-0 -top-[4rem] -z-10 transform-gpu overflow-hidden blur-3xl md:-top-[10rem]"></div>
           <div className="text-center">
-            <h1 className="text-5xl font-bold tracking-tight text-gray-900 ">
+            <h1 className="sm:text-3xl text-3xl lg:text-5xl font-bold tracking-tight  text-gray-900 ">
               Tired of struggling through complex medical reports?
             </h1>
-            <p className=" mt-10 text-lg leading-8 text-gray-600">
+            <p className=" mt-10 sm:text-lg md:text-xl lg:text-lg leading-8 text-gray-600">
               MedInsight is here to help. Our innovative tool empowers you to
               understand your health information clearly and easily, without
               needing a medical degree.{" "}

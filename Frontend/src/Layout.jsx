@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "./components/Navbar.jsx";
+import Navbarr from "./components/Navbarr.jsx";
 import { Footer } from "./components/Footer";
 import { Outlet } from "react-router-dom";
 import { useState } from "react";
@@ -113,7 +113,7 @@ function Layout() {
   ];
   return (
     <>
-      <Navbar />
+      <Navbarr />
 
       <Outlet context={[allHooks]} />
       <Footer />

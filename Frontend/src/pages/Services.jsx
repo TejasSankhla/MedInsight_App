@@ -150,8 +150,7 @@ export default function Services() {
                 Blood Report
               </dt>
               <dd className="mt-2 text-base leading-7 text-gray-600">
-                The tool highlights potential abnormalities in your Blood
-                composition.
+              Blood tests offer a window into your overall health, but interpreting them can be tricky. MedInsight provides a general health overview, highlighting potential areas for improvement.
               </dd>
               <div className="mt-10 flex items-center justify-center gap-x-2">
                 <label

@@ -2,10 +2,10 @@ import { Link, NavLink } from "react-router-dom";
 import icon from "../assets/icon.png";
 export default function Navbar() {
   return (
-    <header className=" shadow-black sticky z-50  w-full font-sans">
+    <header className="relative w-full  font-sans">
       <nav className="bg-blue-500 border-gray-200 px-4 lg:px-6 py-2.5">
         <div className="flex flex-wrap justify-between items-center space-x-2 mx-auto max-w-screen-xl">
-          <Link to="/" className="flex items-center">
+          <Link to="/" className="inline-flex items-center space-x-2">
             <img src={icon} style={{ height: 40, width: 40 }} alt="Logo" />
             <span className="font-bold text-white rounded-md px-3 py-2  font-open text-2xl mx-2">
               MedInsight
@@ -14,14 +14,14 @@ export default function Navbar() {
           <div className="flex items-center lg:order-2">
             <Link
               to="/auth"
-              className="text-black bg-blue-200 hover:bg-blue-300 font-bold rounded-lg text-sm px-2 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none"
-            >
+              className="rounded-md bg-transparent px-3 py-2 text-sm font-semibold text-black hover:bg-black/10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+              >
               Log in
             </Link>
             <Link
               to="#"
-              className="text-black bg-blue-200 hover:bg-blue-300 font-bold rounded-lg text-sm px-2 lg:px-5  lg:py-2.5 mr-2 focus:outline-none"
-            >
+              className="rounded-md border border-black px-3 py-2 text-sm font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+              >
               Get started
             </Link>
           </div>
