@@ -27,7 +27,7 @@ export default function Navbarr() {
   };
 
   return (
-    <header className="relative w-full bg-blue-400  font-sans">
+    <header className="relative w-full z-50 top-0 bg-blue-500  font-sans">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-2 sm:px-6 lg:px-8">
         <div className="flex flex-wrap justify-between items-center space-x-2 ">
           <Link to="/" className="inline-flex items-center space-x-2">
