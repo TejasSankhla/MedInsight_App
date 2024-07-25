@@ -14,17 +14,7 @@ const people = [
     name: "Varad Jadhav",
     role: "ML Expert",
     imageUrl: Varad,
-  },
-  {
-    name: "Khush Makwana",
-    role: "ML Associate",
-    imageUrl: Khush,
-  },
-  {
-    name: "Ritesh Mohan",
-    role: "Frontend Associate",
-    imageUrl: Ritesh,
-  },
+  }
   // More people...
 ];
 
